@@ -80,3 +80,14 @@ span {
   color: #ff0000 !important;
   font-family: Tahoma, sans-serif !important;
 }
+footer {
+  margin-top: 2rem;
+  padding: 1.5rem 0.5rem;
+  color: #fff;
+  text-align: center;
+}
+address {
+  margin: 0 auto;
+  font-style: italic;
+  font-weight: 100;
+}
