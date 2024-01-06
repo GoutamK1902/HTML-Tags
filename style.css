@@ -46,6 +46,7 @@ body {
 .accordion-button:focus {
   box-shadow: none !important;
   outline: 0px !important;
+  background: linear-gradient(90deg, transparent 1%, #00384e, transparent 100%);
 }
 .accordion-item {
   background-color: #00384e55;
