@@ -42,6 +42,7 @@ body {
   border: none;
   outline: none;
 }
+
 .accordion-button:active,
 .accordion-button:focus {
   box-shadow: none !important;
@@ -65,7 +66,8 @@ table,
 thead,
 tbody {
   border-bottom: 2px solid #fff !important;
-  border-collapse: collapse;
+  border-collapse: collapse !important;
+  font-size: 0.8rem !important;
 }
 td {
   font-style: italic;
