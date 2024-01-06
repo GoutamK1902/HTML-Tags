@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container-fluid" style="min-height: 100vh">
+      <h1 class="text-center pt-3"><em>HTML Elements</em></h1>
+      <div class="row p-2 text-center">
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed border"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne"
+                aria-expanded="false"
+                aria-controls="flush-collapseOne"
+              >
+                Accordion Item #1
+              </button>
+            </h2>
+            <div
+              id="flush-collapseOne"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                <table
+                  id="First"
+                  class="table table-bordered border border-2 border-subtle"
+                >
+                  <thead>
+                    <tr class="table-dark">
+                      <th scope="col">Tag</th>
+                      <th scope="col">Description</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="table-success">
+                      <td>&lt;!DOCTYPE&gt;</td>
+                      <td>Defines the document type</td>
+                    </tr>
+                    <tr class="table-success">
+                      <th scope="row">&lt;html&gt;</th>
+                      <td>Defines an HTML document</td>
+                    </tr>
+                    <tr class="table-success">
+                      <th scope="row">&lt;head&gt;</th>
+                      <td colspan="2">
+                        Contains metadata/information for the document
+                      </td>
+                    </tr>
+                    <tr class="table-success">
+                      <th scope="row">&lt;title&gt;</th>
+                      <td colspan="2">Defines a title for document</td>
+                    </tr>
+                    <tr class="table-success">
+                      <th scope="row">&lt;body&gt;</th>
+                      <td colspan="2">Defines the document's body</td>
+                    </tr>
+                    <tr class="table-success">
+                      <th scope="row">&lt;h1&gt; to &lt;h6&gt;</th>
+                      <td colspan="2">Defines the HTML's headings</td>
+                    </tr>
+                    <tr class="table-success">
+                      <th scope="row">&lt;p&gt;</th>
+                      <td colspan="2">Defines a paragraph</td>
+                    </tr>
+                    <tr class="table-success">
+                      <th scope="row">&lt;br&gt;</th>
+                      <td colspan="2">Inserts a single line break</td>
+                    </tr>
+                    <tr class="table-success">
+                      <th scope="row">&lt;hr&gt;</th>
+                      <td colspan="2">
+                        Defines a thermic change in the content
+                      </td>
+                    </tr>
+                    <tr class="table-success">
+                      <th scope="row">&lt;!--...--&gt;</th>
+                      <td colspan="2">Defines a comment</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed border"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseTwo"
+                aria-expanded="false"
+                aria-controls="flush-collapseTwo"
+              >
+                Accordion Item #2
+              </button>
+            </h2>
+            <div
+              id="flush-collapseTwo"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                <table
+                  id="Second"
+                  class="table table-bordered border border-2 border-subtle"
+                >
+                  <thead>
+                    <tr class="table-dark">
+                      <th scope="col">Tag</th>
+                      <th scope="col">Description</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="table-success">
+                      <td>&lt;abbr&gt;</td>
+                      <td>Defines an abbreviation or an acronym</td>
+                    </tr>
+                    <tr class="table-success">
+                      <th scope="row">&lt;address&gt;</th>
+                      <td>
+                        Defines contact info. for the author/owner of a
+                        document/article
+                      </td>
+                    </tr>
+                    <tr class="table-success">
+                      <th scope="row">&lt;b&gt;</th>
+                      <td colspan="2">Defines a bold text</td>
+                    </tr>
+                    <tr class="table-success">
+                      <th scope="row">&lt;bdi&gt;</th>
+                      <td colspan="2">
+                        Isolates a part of text that might be formatted in a
+                        different direction from other text outside of it
+                      </td>
+                    </tr>
+                    <tr class="table-success">
+                      <th scope="row">&lt;bdo&gt;</th>
+                      <td colspan="2">Overrides the current text direction</td>
+                    </tr>
+                    <tr class="table-success">
+                      <th scope="row">&lt;blockquote&gt;</th>
+                      <td colspan="2">
+                        Defines a section that is quoted from another source
+                      </td>
+                    </tr>
+                    <tr class="table-success">
+                      <th scope="row">&lt;cite&gt;</th>
+                      <td colspan="2">Defines the title of a work</td>
+                    </tr>
+                    <tr class="table-success">
+                      <th scope="row">&lt;code&gt;</th>
+                      <td colspan="2">Used to define piece of computer code</td>
+                    </tr>
+                    <tr class="table-success">
+                      <th scope="row">&lt;del&gt;</th>
+                      <td colspan="2">
+                        Defines text that has been deleted from a document
+                      </td>
+                    </tr>
+                    <tr class="table-success">
+                      <th scope="row">&lt;dfn&gt;</th>
+                      <td colspan="2">
+                        Specifies a term that is going to be defined within the
+                        content
+                      </td>
+                    </tr>
+                    <tr class="table-success">
+                      <th scope="row">&lt;em&gt;</th>
+                      <td colspan="2">Defines emphasized text</td>
+                    </tr>
+                    <tr class="table-success">
+                      <th scope="row">&lt;i&gt;</th>
+                      <td colspan="2">
+                        Defines a part of text in an alternate voice or mood
+                      </td>
+                    </tr>
+                    <tr class="table-success">
+                      <th scope="row">&lt;ins&gt;</th>
+                      <td colspan="2">
+                        Defines a text that has been inserted into a document
+                      </td>
+                    </tr>
+                    <tr class="table-success">
+                      <th scope="row">&lt;kbd&gt;</th>
+                      <td colspan="2">Defines keyboard input</td>
+                    </tr>
+                    <tr class="table-success">
+                      <th scope="row">&lt;meter&gt;</th>
+                      <td colspan="2">
+                        Defines a scalar measurement within a known range (a
+                        gauge)
+                      </td>
+                    </tr>
+                    <tr class="table-success">
+                      <th scope="row">&lt;pre&gt;</th>
+                      <td colspan="2">Defines preformatted text</td>
+                    </tr>
+                    <tr class="table-success">
+                      <th scope="row">&lt;progress&gt;</th>
+                      <td colspan="2">Represents the progress of a task</td>
+                    </tr>
+                    <tr class="table-success">
+                      <th scope="row">&lt;q&gt;</th>
+                      <td colspan="2">Defines a short quotation</td>
+                    </tr>
+                    <tr class="table-success">
+                      <th scope="row">&lt;rp&gt;</th>
+                      <td colspan="2">
+                        Defines what to show in browsers that do not support
+                        ruby annotations
+                      </td>
+                    </tr>
+                    <tr class="table-success">
+                      <th scope="row">&lt;rt&gt;</th>
+                      <td colspan="2">
+                        Defines an explanation/pronunciation of characters (for
+                        East Asian typography)
+                      </td>
+                    </tr>
+                    <tr class="table-success">
+                      <th scope="row">&lt;ruby&gt;</th>
+                      <td colspan="2">
+                        Defines a ruby annotation (for East Asian typography)
+                      </td>
+                    </tr>
+                    <tr class="table-success">
+                      <th scope="row">&lt;s&gt;</th>
+                      <td colspan="2">
+                        Defines text that is no longer correct
+                      </td>
+                    </tr>
+                    <tr class="table-success">
+                      <th scope="row">&lt;samp&gt;</th>
+                      <td colspan="2">
+                        Defines sample output from a computer program
+                      </td>
+                    </tr>
+                    <tr class="table-success">
+                      <th scope="row">&lt;small&gt;</th>
+                      <td colspan="2">Defines smaller text</td>
+                    </tr>
+                    <tr class="table-success">
+                      <th scope="row">&lt;strong&gt;</th>
+                      <td colspan="2">Defines important text</td>
+                    </tr>
+                    <tr class="table-success">
+                      <th scope="row">&lt;sub&gt;</th>
+                      <td colspan="2">Defines subscripted text</td>
+                    </tr>
+                    <tr class="table-success">
+                      <th scope="row">&lt;sup&gt;</th>
+                      <td colspan="2">Defines superscripted text</td>
+                    </tr>
+                    <tr class="table-success">
+                      <th scope="row">&lt;template&gt;</th>
+                      <td colspan="2">
+                        Defines a container for content that should be hidden
+                        when the page loads
+                      </td>
+                    </tr>
+                    <tr class="table-success">
+                      <th scope="row">&lt;time&gt;</th>
+                      <td colspan="2">Defines a specific time (or datetime)</td>
+                    </tr>
+                    <tr class="table-success">
+                      <th scope="row">&lt;u&gt;</th>
+                      <td colspan="2">
+                        Defines some text that is unarticulated and styled
+                        differently from normal text
+                      </td>
+                    </tr>
+                    <tr class="table-success">
+                      <th scope="row">&lt;var&gt;</th>
+                      <td colspan="2">Defines a variable</td>
+                    </tr>
+                    <tr class="table-success">
+                      <th scope="row">&lt;wbr&gt;</th>
+                      <td colspan="2">Defines a possible line-break</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed border"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseThree"
+                aria-expanded="false"
+                aria-controls="flush-collapseThree"
+              >
+                Accordion Item #3
+              </button>
+            </h2>
+            <div
+              id="flush-collapseThree"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                <table
+                  id="Third"
+                  class="table table-bordered border border-2 border-subtle"
+                >
+                  <thead>
+                    <tr class="table-dark">
+                      <th scope="col">Tag</th>
+                      <th scope="col">Description</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="table-success">
+                      <td>&lt;form&gt;</td>
+                      <td>Defines an HTML form for user input</td>
+                    </tr>
+                    <tr class="table-success">
+                      <td>&lt;input&gt;</td>
+                      <td>Defines an input control</td>
+                    </tr>
+                    <tr class="table-success">
+                      <td>&lt;textarea&gt;</td>
+                      <td>Defines a multiline input control (text area)</td>
+                    </tr>
+                    <tr class="table-success">
+                      <td>&lt;button&gt;</td>
+                      <td>Defines a clickable button</td>
+                    </tr>
+                    <tr class="table-success">
+                      <td>&lt;select&gt;</td>
+                      <td>Defines a drop-down list</td>
+                    </tr>
+                    <tr class="table-success">
+                      <td>&lt;optgroup&gt;</td>
+                      <td>
+                        Defines a group of related options in a drop-down list
+                      </td>
+                    </tr>
+                    <tr class="table-success">
+                      <td>&lt;option&gt;</td>
+                      <td>Defines an option in a drop-down list</td>
+                    </tr>
+                    <tr class="table-success">
+                      <td>&lt;label&gt;</td>
+                      <td>Defines a label for an input element</td>
+                    </tr>
+                    <tr class="table-success">
+                      <td>&lt;fieldset&gt;</td>
+                      <td>Groups related elements in a form</td>
+                    </tr>
+                    <tr class="table-success">
+                      <td>&lt;legend&gt;</td>
+                      <td>Defines a caption for a &lt;fieldset&gt; element</td>
+                    </tr>
+                    <tr class="table-success">
+                      <td>&lt;datalist&gt;</td>
+                      <td>
+                        Specifies a list of pre-defined options for input
+                        controls
+                      </td>
+                    </tr>
+                    <tr class="table-success">
+                      <td>&lt;output&gt;</td>
+                      <td>Defines the result of a calculation</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed border"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapse1"
+                aria-expanded="false"
+                aria-controls="flush-collapse1"
+              >
+                Accordion Item #1
+              </button>
+            </h2>
+            <div
+              id="flush-collapse1"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                Placeholder content for this accordion, which is intended to
+                demonstrate the <code>.accordion-flush</code> class. This is the
+                first item's accordion body.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed border"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapse2"
+                aria-expanded="false"
+                aria-controls="flush-collapse2"
+              >
+                Accordion Item #2
+              </button>
+            </h2>
+            <div
+              id="flush-collapse2"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                Placeholder content for this accordion, which is intended to
+                demonstrate the <code>.accordion-flush</code> class. This is the
+                second item's accordion body. Let's imagine this being filled
+                with some actual content.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed border"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapse3"
+                aria-expanded="false"
+                aria-controls="flush-collapse3"
+              >
+                Accordion Item #3
+              </button>
+            </h2>
+            <div
+              id="flush-collapse3"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                Placeholder content for this accordion, which is intended to
+                demonstrate the <code>.accordion-flush</code> class. This is the
+                third item's accordion body. Nothing more exciting happening
+                here in terms of content, but just filling up the space to make
+                it look, at least at first glance, a bit more representative of
+                how this would look in a real-world application.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed border"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseA"
+                aria-expanded="false"
+                aria-controls="flush-collapseA"
+              >
+                Accordion Item #1
+              </button>
+            </h2>
+            <div
+              id="flush-collapseA"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                Placeholder content for this accordion, which is intended to
+                demonstrate the <code>.accordion-flush</code> class. This is the
+                first item's accordion body.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed border"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseB"
+                aria-expanded="false"
+                aria-controls="flush-collapseB"
+              >
+                Accordion Item #2
+              </button>
+            </h2>
+            <div
+              id="flush-collapseB"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                Placeholder content for this accordion, which is intended to
+                demonstrate the <code>.accordion-flush</code> class. This is the
+                second item's accordion body. Let's imagine this being filled
+                with some actual content.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed border"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseC"
+                aria-expanded="false"
+                aria-controls="flush-collapseC"
+              >
+                Accordion Item #3
+              </button>
+            </h2>
+            <div
+              id="flush-collapseC"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                Placeholder content for this accordion, which is intended to
+                demonstrate the <code>.accordion-flush</code> class. This is the
+                third item's accordion body. Nothing more exciting happening
+                here in terms of content, but just filling up the space to make
+                it look, at least at first glance, a bit more representative of
+                how this would look in a real-world application.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
