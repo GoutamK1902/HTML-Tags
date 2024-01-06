@@ -75,8 +75,8 @@ td {
 
 /* Spans */
 span {
-  font-size: x-small;
-  font-weight: 500;
-  color: #ff0000;
-  font-family: Tahoma, sans-serif;
+  font-size: x-small !important;
+  font-weight: 500 !important;
+  color: #ff0000 !important;
+  font-family: Tahoma, sans-serif !important;
 }
