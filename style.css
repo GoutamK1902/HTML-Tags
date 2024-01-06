@@ -72,3 +72,10 @@ tbody {
 td {
   font-style: italic;
 }
+
+/* Spans */
+span {
+  font-weight: 600;
+  color: #ff0000;
+  font-family: Tahoma, sans-serif;
+}
